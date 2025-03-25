@@ -65,10 +65,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
+    },    
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "JavaScript",
@@ -79,6 +79,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -87,7 +91,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "mongoDb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "mysql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -101,6 +113,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -341,21 +365,20 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  title: "Mentorship & Experience",
+  subtitle: emoji("I had the privilege of working under the guidance of Durlabh Jain, a passionate Full Stack Developer, during my time at Spraxa Solution pvt Ltd. His mentorship helped me refine my skills in Debugging and Implementing new tech. 😅"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Mentored by Durlabh Jain",
+      subtitle: "Gained expertise in Full Stack Development under his guidance",
+      slides_url: "https://durlabhjain.com/", // Add any relevant link if needed
+      event_url: "https://durlabhjain.com/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
+
 
 // Podcast Section
 
